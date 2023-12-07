@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://lizfischer.github.io/liztestproject/test-item/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test item" ] },
+    "items": [
+      {
+        "id": "https://lizfischer.github.io/liztestproject/test-item/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 120.0,
+        "items": [
+          {
+            "id": "https://lizfischer.github.io/liztestproject/test-item/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://lizfischer.github.io/liztestproject/test-item/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "",
+                    "duration": 120.0
+                },
+                "target": "https://lizfischer.github.io/liztestproject/test-item/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
